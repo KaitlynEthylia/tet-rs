@@ -1,7 +1,5 @@
-mod command;
+mod config;
 
 fn main() {
-    let config = command::init();
-
-    println!("{}", config)
+    config::init();
 }
